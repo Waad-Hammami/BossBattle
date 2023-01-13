@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6464493710446416669
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e14954a75ff04471aa9befca86cdb5d, type: 3}
+  m_Name: Entry
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: 0}
+  outputs:
+  - {fileID: 4857705590253093458}
+  mode: 0
+  editorName: 
+  position: {x: -80, y: -192}
+--- !u!114 &-380968648295586631
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 1
+  prefabConditionsList: {fileID: 2052217572813387745, guid: 01b3575777d89ea449a68c576a7ecb5a, type: 3}
+  useActionsList: 1
+  prefabActionsList: {fileID: 2543614426311259704, guid: 1e1ae20c98426ac4cad457b807afb5a6, type: 3}
+  input: {fileID: 4857705590253093458}
+  outputs: []
+  mode: 1
+  editorName: Attacking
+  position: {x: -368, y: 31}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6fc1f28238a4adb8d1747178271dc5, type: 3}
+  m_Name: BossAI Behavior
+  m_EditorClassIdentifier: 
+  root: {fileID: -6464493710446416669}
+  nodes:
+  - {fileID: -6464493710446416669}
+  - {fileID: 4857705590253093458}
+  - {fileID: 1953082988186350566}
+  - {fileID: -380968648295586631}
+  - {fileID: 4091147921775929522}
+  blackboard:
+    list:
+    - name: CombatActions
+      type: 9
+    - name: PatrolActions
+      type: 9
+    - name: MarkerShot
+      type: 9
+    - name: ViewMarker01
+      type: 9
+    - name: ViewMarker02
+      type: 9
+  position: {x: -1, y: 6}
+  zoom: 1.7538455
+--- !u!114 &1953082988186350566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 1
+  prefabConditionsList: {fileID: 5101908671009047834, guid: c9d2dde7ba26ef14e99356f6f02b37f9, type: 3}
+  useActionsList: 1
+  prefabActionsList: {fileID: 4744767490111374987, guid: 6d3b15a018cca874b899aa615417d878, type: 3}
+  input: {fileID: 4857705590253093458}
+  outputs: []
+  mode: 1
+  editorName: GettingShot
+  position: {x: -133, y: 33}
+--- !u!114 &4091147921775929522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 1
+  prefabConditionsList: {fileID: 7372561194902703303, guid: b20699cc60c244948bed0c19afbb7938, type: 3}
+  useActionsList: 1
+  prefabActionsList: {fileID: 4624503118618251368, guid: 15336278c1e912842a36242f5fa6d280, type: 3}
+  input: {fileID: 4857705590253093458}
+  outputs: []
+  mode: 1
+  editorName: Patrolling
+  position: {x: 93, y: 38}
+--- !u!114 &4857705590253093458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3ca613e87c245f6996bb5850932f56, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: -6464493710446416669}
+  outputs:
+  - {fileID: -380968648295586631}
+  - {fileID: 1953082988186350566}
+  - {fileID: 4091147921775929522}
+  mode: 0
+  editorName: 
+  position: {x: -131, y: -98}
+  composite: 0
