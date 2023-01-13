@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e95b394c983ca4f7abadd9e640dd1c4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   target:
     target: 0
     character: {fileID: 0}
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093bbc6a7c1334b37ac569a948728c55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   waitTime: 0.5
 --- !u!114 &1285060830543223424
 MonoBehaviour:
@@ -240,7 +240,7 @@ MonoBehaviour:
     postProcess: 0
     translationID: 0
   color: {r: 1, g: 1, b: 1, a: 1}
-  time: 4
+  time: 6.6089797
 --- !u!114 &-2798537335312509230
 MonoBehaviour:
   m_ObjectHideFlags: 3
