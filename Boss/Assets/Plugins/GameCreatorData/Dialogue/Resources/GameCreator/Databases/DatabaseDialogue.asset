@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DatabaseDialogue
   m_EditorClassIdentifier: 
   defaultConfig:
-    dialogueSkin: {fileID: 0}
+    dialogueSkin: {fileID: 1539184687085956, guid: d4a6cf6eb009e4feb80178875f6bc35a, type: 3}
     skipKey: 323
     secondSkipKey: 0
     revisitChoiceOpacity: 0.75

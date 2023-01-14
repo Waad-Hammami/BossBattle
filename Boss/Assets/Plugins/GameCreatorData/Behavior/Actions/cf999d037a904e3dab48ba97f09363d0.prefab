@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isExpanded: 1
   target:
-    target: 0
+    target: 1
     character: {fileID: 0}
     local:
       allowTypesMask: 512

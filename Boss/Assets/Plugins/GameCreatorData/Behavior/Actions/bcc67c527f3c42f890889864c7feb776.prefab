@@ -94,7 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isExpanded: 1
   target:
-    target: 0
+    target: 1
     character: {fileID: 0}
     local:
       allowTypesMask: 512
@@ -163,8 +163,8 @@ MonoBehaviour:
     character: {fileID: 0}
     local:
       allowTypesMask: 512
-      name: 
-      targetType: 2
+      name: Boss
+      targetType: 1
       targetObject: {fileID: 0}
     global:
       allowTypesMask: 512
@@ -177,7 +177,7 @@ MonoBehaviour:
     eventChangeVariable:
       m_PersistentCalls:
         m_Calls: []
-  clip: {fileID: 74926674734837956, guid: ddbb0c2ffa47e48f295597feb916b6f9, type: 2}
+  clip: {fileID: -203655887218126122, guid: fe7a63286eb3707408de50adc5351a2b, type: 3}
   avatarMask: {fileID: 0}
   speed:
     optionIndex: 0
@@ -213,11 +213,11 @@ MonoBehaviour:
   isExpanded: 1
   audioClip: {fileID: 8300000, guid: 3c904f98f5921824daea715509d96383, type: 3}
   message:
-    content: MutantScream01
+    content: Mutant Scream
     postProcess: 0
     translationID: 0
   color: {r: 1, g: 1, b: 1, a: 1}
-  time: 5
+  time: 4
 --- !u!114 &6092228373027801486
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93243101ebe0045578340c65fdf6f00f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   shooter:
     target: 2
     gameObject: {fileID: 0}
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182ce00a07e144b13a680dc409247594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   shooter:
     target: 2
     gameObject: {fileID: 0}
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80584c3e2560c48f59ea4d2919d9c6a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   source: 1
   actions: {fileID: 0}
   variable:

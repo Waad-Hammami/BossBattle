@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f735d8d0aa984e6cbccc634eb414ee1, type: 3}
   m_Name: DatabaseQuests
   m_EditorClassIdentifier: 
-  quests: {fileID: 0}
+  quests: {fileID: 11400000, guid: c296cc5d393593047a1e3d349b294f7b, type: 2}
   list: []
   settings:
     journalSkin: {fileID: 0}
