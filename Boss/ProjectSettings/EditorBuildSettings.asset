@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/TestScene.unity
     guid: 4007b1b6349406f4cacb0fa0e1a85c68
   - enabled: 1
-    path: Assets/Scenes/BossFightScene 1.unity
+    path: Assets/Scenes/MeleeTest.unity
     guid: 279680bf4e7ba8547895a7019e036938
   m_configObjects: {}

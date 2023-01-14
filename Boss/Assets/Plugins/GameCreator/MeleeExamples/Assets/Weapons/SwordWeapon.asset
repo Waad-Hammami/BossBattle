@@ -23,15 +23,14 @@ MonoBehaviour:
   defaultShield: {fileID: 11400000, guid: 2f64b0fde625d4f3eb639ab221516ad7, type: 2}
   characterState: {fileID: 11400000, guid: 0562ed4e6eb8f45b198b9af2c12a79e7, type: 2}
   characterMask: {fileID: 0}
-  prefab: {fileID: 6127778902043319522, guid: 427f499ee46a04a9ca78d17f84a162db, type: 3}
+  prefab: {fileID: 3811853410690071014, guid: 1596a30ad6ddce5468766a808e894af6, type: 3}
   attachment: 18
-  positionOffset: {x: 1.5, y: -6.5, z: 1.5}
-  rotationOffset: {x: 165, y: 0, z: -100}
+  positionOffset: {x: 0, y: 0, z: 0}
+  rotationOffset: {x: 150, y: 0, z: -90}
   audioSheathe: {fileID: 8300000, guid: ec5b102aa3bfd4afabe344f209d29ef0, type: 3}
   audioDraw: {fileID: 8300000, guid: 9f819c03d98d04eed982c4633d9a8479, type: 3}
   audioImpactNormal: {fileID: 8300000, guid: 00f967e54adc343b1a07b49f4b7514c7, type: 3}
-  audioImpactKnockback: {fileID: 8300000, guid: defd2ad8bedbe453f94c94c4590bcf2f,
-    type: 3}
+  audioImpactKnockback: {fileID: 8300000, guid: defd2ad8bedbe453f94c94c4590bcf2f, type: 3}
   groundHitReactionsFront:
   - {fileID: 11400000, guid: 9d7b576b5744742c2ad03e38881a57db, type: 2}
   - {fileID: 11400000, guid: 40d5da86321004946aca910c651c54f2, type: 2}
@@ -74,7 +73,5 @@ MonoBehaviour:
     condition: 0
     meleeClip: {fileID: 11400000, guid: ab7574fd7695149e39c974ee435cb36a, type: 2}
     isEnabled: 1
-  prefabImpactNormal: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8,
-    type: 3}
-  prefabImpactKnockback: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8,
-    type: 3}
+  prefabImpactNormal: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8, type: 3}
+  prefabImpactKnockback: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8, type: 3}
