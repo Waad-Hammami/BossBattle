@@ -12,11 +12,12 @@ GameObject:
   - component: {fileID: 2907503581770812232}
   - component: {fileID: 2543614426311259704}
   - component: {fileID: -8254203876961625256}
-  - component: {fileID: 5798159621285254584}
   - component: {fileID: 650581458395121532}
   - component: {fileID: 6092228373027801486}
   - component: {fileID: 1448506747170639607}
   - component: {fileID: 6265158410136860511}
+  - component: {fileID: -2845330053049785933}
+  - component: {fileID: 8623911919180111750}
   m_Layer: 0
   m_Name: bcc67c527f3c42f890889864c7feb776
   m_TagString: Untagged
@@ -73,7 +74,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: -8254203876961625256}
-  - {fileID: 5798159621285254584}
+  - {fileID: 8623911919180111750}
+  - {fileID: -2845330053049785933}
   - {fileID: 650581458395121532}
   - {fileID: 6092228373027801486}
   - {fileID: 1448506747170639607}
@@ -145,59 +147,6 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
---- !u!114 &5798159621285254584
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1454481003488341711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7488e222b11cb4789a359d6a20b1e33d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 1
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: Boss
-      targetType: 1
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  clip: {fileID: -203655887218126122, guid: fe7a63286eb3707408de50adc5351a2b, type: 3}
-  avatarMask: {fileID: 0}
-  speed:
-    optionIndex: 0
-    value: 1
-    global:
-      allowTypesMask: 4
-      name: 
-    local:
-      allowTypesMask: 4
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-  fadeIn: 0.1
-  fadeOut: 0.1
-  waitTillComplete: 0
 --- !u!114 &650581458395121532
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -217,7 +166,7 @@ MonoBehaviour:
     postProcess: 0
     translationID: 0
   color: {r: 1, g: 1, b: 1, a: 1}
-  time: 4
+  time: 3
 --- !u!114 &6092228373027801486
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -333,3 +282,106 @@ MonoBehaviour:
       select: 1
       index: 0
   waitToFinish: 1
+--- !u!114 &-2845330053049785933
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454481003488341711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7488e222b11cb4789a359d6a20b1e33d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  character:
+    target: 1
+    character: {fileID: 0}
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    global:
+      allowTypesMask: 512
+      name: 
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
+  clip: {fileID: -203655887218126122, guid: 0032fefb7e61acf49be2cb2408388a11, type: 3}
+  avatarMask: {fileID: 0}
+  speed:
+    optionIndex: 0
+    value: 1
+    global:
+      allowTypesMask: 4
+      name: 
+    local:
+      allowTypesMask: 4
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  fadeIn: 0.1
+  fadeOut: 0.1
+  waitTillComplete: 0
+--- !u!114 &8623911919180111750
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454481003488341711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482f195701c804a2fa2c89b4d414f851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  character:
+    target: 1
+    character: {fileID: 0}
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    global:
+      allowTypesMask: 512
+      name: 
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
+  target:
+    target: 0
+    offset: {x: 0, y: 0, z: 0}
+    targetTransform: {fileID: 0}
+    targetPosition: {x: 0, y: 0, z: 0}
+    local:
+      allowTypesMask: 608
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    global:
+      allowTypesMask: 608
+      name: 
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
