@@ -12521,7 +12521,7 @@ MonoBehaviour:
       index: 0
   duration:
     optionIndex: 0
-    value: 1.69
+    value: 0.5
     global:
       allowTypesMask: 4
       name: 
@@ -12535,7 +12535,7 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-  drag: 1
+  drag: 5
   dashClipForward: {fileID: 7400038, guid: 5b0b3a1e98b4d6a49b1f360b4b3f5576, type: 3}
   dashClipBackward: {fileID: 7400032, guid: 5b0b3a1e98b4d6a49b1f360b4b3f5576, type: 3}
   dashClipRight: {fileID: 7400034, guid: 5b0b3a1e98b4d6a49b1f360b4b3f5576, type: 3}
@@ -13803,6 +13803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 903899393}
   - component: {fileID: 903899392}
+  - component: {fileID: 903899394}
   m_Layer: 0
   m_Name: List_FocusOnEnemies
   m_TagString: Untagged
@@ -13823,7 +13824,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gid: b98ed28d-603b-45ff-a776-735e124693f5
-  references: []
+  references:
+  - {fileID: 903899394}
   save: 0
   type: 9
   variables: []
@@ -13842,6 +13844,42 @@ Transform:
   m_Father: {fileID: 1448284410}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &903899394
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903899391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5427d7a3d7317485f8580bfb4a87d521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variable:
+    name: 91c62b7fc10a40f081af69f7b7b98a69
+    save: 1
+    type: 9
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 1484946959}
+  isExpanded: 1
 --- !u!1 &914028707 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 7163db7426b13a345b09fa28a500a5e6, type: 3}
