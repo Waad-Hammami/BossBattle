@@ -21,9 +21,18 @@ EditorBuildSettings:
     path: Assets/Plugins/GameCreator/Examples/Scenes/Example-3.unity
     guid: 049c31a0f8082406eb0a64934aa5f3b4
   - enabled: 0
-    path: Assets/Scenes/TestScene.unity
+    path: Assets/Scenes/TestScene/TestScene.unity
     guid: 4007b1b6349406f4cacb0fa0e1a85c68
   - enabled: 1
-    path: Assets/Scenes/MeleeTest.unity
-    guid: 279680bf4e7ba8547895a7019e036938
+    path: Assets/Scenes/Intro.unity
+    guid: 434d95673f9cba345abaf808f0dccf6d
+  - enabled: 1
+    path: Assets/Scenes/FireMagic.unity
+    guid: 9a1116a9d616d8c43bb5e0067b0d1484
+  - enabled: 1
+    path: Assets/Scenes/won_lost/Won.unity
+    guid: 96e4718c91b7a38408dcb70e64711950
+  - enabled: 1
+    path: Assets/Scenes/won_lost/Lost.unity
+    guid: 5ad47b6ad0a64bb4788a538bfede59da
   m_configObjects: {}

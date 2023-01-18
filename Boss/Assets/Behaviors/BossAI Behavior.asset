@@ -77,7 +77,7 @@ MonoBehaviour:
     - name: ViewMarker02
       type: 9
   position: {x: -1, y: 6}
-  zoom: 1.4712287
+  zoom: 1.7801868
 --- !u!114 &1953082988186350566
 MonoBehaviour:
   m_ObjectHideFlags: 1
