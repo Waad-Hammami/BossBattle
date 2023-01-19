@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c46e5a9775dc496abbf85c5045fea47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   character:
     target: 1
     character: {fileID: 0}
@@ -322,8 +322,8 @@ MonoBehaviour:
     eventChangeVariable:
       m_PersistentCalls:
         m_Calls: []
-  followMinRadius: 5
-  followMaxRadius: 6
+  followMinRadius: 7
+  followMaxRadius: 8
 --- !u!114 &7129737937950271195
 MonoBehaviour:
   m_ObjectHideFlags: 3

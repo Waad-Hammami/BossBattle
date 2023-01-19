@@ -96,7 +96,7 @@ MonoBehaviour:
     - name: Trigger_Phase3
       type: 9
   position: {x: 334, y: -332}
-  zoom: 3.3297703
+  zoom: 1.1610191
 --- !u!114 &1922861412036420117
 MonoBehaviour:
   m_ObjectHideFlags: 1
