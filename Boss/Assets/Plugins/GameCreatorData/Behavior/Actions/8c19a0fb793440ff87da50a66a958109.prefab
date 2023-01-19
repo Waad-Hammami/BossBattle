@@ -29,8 +29,6 @@ GameObject:
   - component: {fileID: 4087616938226814138}
   - component: {fileID: 1276768291415565968}
   - component: {fileID: 6835990205780937310}
-  - component: {fileID: -5241239929947287695}
-  - component: {fileID: -5769958737292365101}
   m_Layer: 0
   m_Name: 8c19a0fb793440ff87da50a66a958109
   m_TagString: Untagged
@@ -104,8 +102,6 @@ MonoBehaviour:
   - {fileID: 4087616938226814138}
   - {fileID: 1276768291415565968}
   - {fileID: 6835990205780937310}
-  - {fileID: -5241239929947287695}
-  - {fileID: -5769958737292365101}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &-5382279425345969285
@@ -611,53 +607,6 @@ MonoBehaviour:
   isExpanded: 0
   waitTime: 0.5
 --- !u!114 &6835990205780937310
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369859141628818409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38bf0f8c8fb12482d9662e19de74cbbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isExpanded: 0
-  character:
-    target: 1
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  key: 0
---- !u!114 &-5241239929947287695
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369859141628818409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 093bbc6a7c1334b37ac569a948728c55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isExpanded: 0
-  waitTime: 0.5
---- !u!114 &-5769958737292365101
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}

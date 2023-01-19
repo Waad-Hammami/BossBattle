@@ -21,7 +21,7 @@ MonoBehaviour:
   outputs: []
   mode: 0
   editorName: Phase2:Melee
-  position: {x: -556, y: 383}
+  position: {x: -573, y: 177}
 --- !u!114 &-5315802872126865285
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -44,7 +44,7 @@ MonoBehaviour:
   - {fileID: 8348799713392699966}
   mode: 0
   editorName: 
-  position: {x: -400, y: 189}
+  position: {x: -400, y: -108}
 --- !u!114 &-616362115169917620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -66,7 +66,7 @@ MonoBehaviour:
   outputs: []
   mode: 0
   editorName: Phase1:Projectile
-  position: {x: -775, y: 388}
+  position: {x: -797, y: 166}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
     - name: Trigger_Phase4
       type: 9
   position: {x: 334, y: -332}
-  zoom: 3.1384287
+  zoom: 1.4121478
 --- !u!114 &1922861412036420117
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -118,7 +118,7 @@ MonoBehaviour:
   outputs: []
   mode: 0
   editorName: Phase3:Combo
-  position: {x: -341, y: 378}
+  position: {x: -330, y: 177}
 --- !u!114 &5271694316425916600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -140,7 +140,7 @@ MonoBehaviour:
   outputs: []
   mode: 1
   editorName: Phase4:FinalAttak
-  position: {x: -117, y: 377}
+  position: {x: -95, y: 176}
 --- !u!114 &8348799713392699966
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -166,5 +166,5 @@ MonoBehaviour:
   - {fileID: 5271694316425916600}
   mode: 0
   editorName: MultiPhases
-  position: {x: -452, y: 280}
+  position: {x: -454, y: 5}
   composite: 0
