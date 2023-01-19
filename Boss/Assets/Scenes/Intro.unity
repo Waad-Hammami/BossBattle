@@ -1408,7 +1408,6 @@ GameObject:
   - component: {fileID: 267634978}
   - component: {fileID: 267634983}
   - component: {fileID: 267634982}
-  - component: {fileID: 267634981}
   - component: {fileID: 267634980}
   - component: {fileID: 267634984}
   m_Layer: 0
@@ -1455,7 +1454,6 @@ MonoBehaviour:
   - {fileID: 267634983}
   - {fileID: 267634984}
   - {fileID: 267634982}
-  - {fileID: 267634981}
   - {fileID: 267634980}
   executingIndex: -1
   isExecuting: 0
@@ -1560,20 +1558,6 @@ MonoBehaviour:
       index: 0
   mode: 0
   async: 0
---- !u!114 &267634981
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267634975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 093bbc6a7c1334b37ac569a948728c55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isExpanded: 1
-  waitTime: 1.5
 --- !u!114 &267634982
 MonoBehaviour:
   m_ObjectHideFlags: 3

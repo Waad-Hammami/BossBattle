@@ -2139,7 +2139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9198955081775269737, guid: e66d283414228b74d9274ffe9668d05f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9198955081775269737, guid: e66d283414228b74d9274ffe9668d05f, type: 3}
       propertyPath: m_LocalScale.x
@@ -7680,16 +7680,16 @@ MonoBehaviour:
     eventChangeVariable:
       m_PersistentCalls:
         m_Calls: []
-  targetOffset: {x: -0.2, y: 1.3, z: 0}
+  targetOffset: {x: -0.1, y: 1.3, z: -0.5}
   pivotOffset: {x: -0.3, y: 0, z: 0}
   initialDirection: 0
   allowOrbitInput: 1
   orbitInput: 0
-  orbitSpeed: 25
+  orbitSpeed: 20
   maxPitch: 120
   sensitivity:
     optionIndex: 0
-    value: {x: 7, y: 7}
+    value: {x: 5, y: 5}
     global:
       allowTypesMask: 32
       name: 
@@ -7743,7 +7743,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &991726564
 GameObject:
@@ -10049,7 +10049,7 @@ MonoBehaviour:
   characterLocomotion:
     isControllable: 1
     isBusy: 0
-    runSpeed: 7
+    runSpeed: 5
     angularSpeed: 540
     gravity: -9.81
     maxFallSpeed: -100
@@ -13761,7 +13761,7 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-  drag: 1.5
+  drag: 1
   dashClipForward: {fileID: 7400038, guid: 5b0b3a1e98b4d6a49b1f360b4b3f5576, type: 3}
   dashClipBackward: {fileID: 7400032, guid: 5b0b3a1e98b4d6a49b1f360b4b3f5576, type: 3}
   dashClipRight: {fileID: 7400034, guid: 5b0b3a1e98b4d6a49b1f360b4b3f5576, type: 3}
