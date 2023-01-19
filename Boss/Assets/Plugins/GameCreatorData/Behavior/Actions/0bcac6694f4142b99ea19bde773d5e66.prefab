@@ -26,7 +26,8 @@ GameObject:
   - component: {fileID: 1253795654981189294}
   - component: {fileID: 4332118272717249429}
   - component: {fileID: -8941940477131386623}
-  - component: {fileID: -468905384394285526}
+  - component: {fileID: -6773275538110010817}
+  - component: {fileID: 3178536423306426111}
   m_Layer: 0
   m_Name: 0bcac6694f4142b99ea19bde773d5e66
   m_TagString: Untagged
@@ -82,6 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 3178536423306426111}
   - {fileID: 8138898138132654564}
   - {fileID: 2834828587610371564}
   - {fileID: -9069434839634829692}
@@ -97,7 +99,7 @@ MonoBehaviour:
   - {fileID: 1253795654981189294}
   - {fileID: 4332118272717249429}
   - {fileID: -8941940477131386623}
-  - {fileID: -468905384394285526}
+  - {fileID: -6773275538110010817}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &2834828587610371564
@@ -509,7 +511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isExpanded: 0
-  waitTime: 1.5
+  waitTime: 0.5
 --- !u!114 &1203422889187391403
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -545,7 +547,7 @@ MonoBehaviour:
   mode: 1
   burstAmount:
     optionIndex: 0
-    value: 3
+    value: 5
     global:
       allowTypesMask: 4
       name: 
@@ -572,7 +574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isExpanded: 0
-  waitTime: 2.55
+  waitTime: 0.5
 --- !u!114 &1253795654981189294
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -650,7 +652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isExpanded: 0
   character:
-    target: 2
+    target: 1
     character: {fileID: 0}
     local:
       allowTypesMask: 512
@@ -690,7 +692,7 @@ MonoBehaviour:
         m_Calls: []
   followMinRadius: 10
   followMaxRadius: 15
---- !u!114 &-468905384394285526
+--- !u!114 &-6773275538110010817
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -699,21 +701,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 7965643267697421766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5548b909b38c451984b58c013c602b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 6550f27470913457faef2f508a2dd80a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isExpanded: 0
-  shooter:
-    target: 3
-    gameObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
+--- !u!114 &3178536423306426111
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7965643267697421766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba9eb0846af144529dcdbf0cbe397c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 0
+  character:
+    target: 1
+    character: {fileID: 0}
     local:
       allowTypesMask: 512
       name: 
       targetType: 2
       targetObject: {fileID: 0}
+    global:
+      allowTypesMask: 512
+      name: 
     list:
       targetType: 3
       targetObject: {fileID: 0}
@@ -722,24 +737,3 @@ MonoBehaviour:
     eventChangeVariable:
       m_PersistentCalls:
         m_Calls: []
-  aim: 0
-  target:
-    target: 3
-    gameObject: {fileID: 0}
-    global:
-      allowTypesMask: -1
-      name: 
-    local:
-      allowTypesMask: -1
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  axis: 0

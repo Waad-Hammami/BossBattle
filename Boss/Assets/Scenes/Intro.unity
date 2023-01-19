@@ -1544,7 +1544,7 @@ MonoBehaviour:
   isExpanded: 1
   sceneName:
     optionIndex: 0
-    value: FireMagic
+    value: MultiPhase
     global:
       allowTypesMask: 2
       name: 

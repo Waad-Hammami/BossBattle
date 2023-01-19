@@ -96,7 +96,7 @@ MonoBehaviour:
     - name: Trigger_Phase3
       type: 9
   position: {x: 334, y: -332}
-  zoom: 1.7086987
+  zoom: 2.0675254
 --- !u!114 &1922861412036420117
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
   useConditionsList: 0
-  prefabConditionsList: {fileID: 0}
+  prefabConditionsList: {fileID: 8214407769375219289, guid: 82054dd44f7e9e041bcf9c3bee6a7895, type: 3}
   useActionsList: 0
   prefabActionsList: {fileID: 0}
   input: {fileID: -5315802872126865285}
@@ -167,4 +167,4 @@ MonoBehaviour:
   mode: 0
   editorName: MultiPhases
   position: {x: -454, y: 5}
-  composite: 0
+  composite: 4

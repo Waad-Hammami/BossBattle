@@ -8972,7 +8972,7 @@ MonoBehaviour:
   compare: 1
   value:
     optionIndex: 0
-    value: 9
+    value: 0
     global:
       allowTypesMask: 4
       name: 
@@ -10049,7 +10049,7 @@ MonoBehaviour:
   characterLocomotion:
     isControllable: 1
     isBusy: 0
-    runSpeed: 10
+    runSpeed: 7
     angularSpeed: 540
     gravity: -9.81
     maxFallSpeed: -100
@@ -13761,7 +13761,7 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-  drag: 2.5
+  drag: 1.5
   dashClipForward: {fileID: 7400038, guid: 5b0b3a1e98b4d6a49b1f360b4b3f5576, type: 3}
   dashClipBackward: {fileID: 7400032, guid: 5b0b3a1e98b4d6a49b1f360b4b3f5576, type: 3}
   dashClipRight: {fileID: 7400034, guid: 5b0b3a1e98b4d6a49b1f360b4b3f5576, type: 3}

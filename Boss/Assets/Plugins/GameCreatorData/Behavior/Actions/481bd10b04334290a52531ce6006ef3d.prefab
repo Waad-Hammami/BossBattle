@@ -18,7 +18,6 @@ GameObject:
   - component: {fileID: 223509177764718450}
   - component: {fileID: 8151185633708267083}
   - component: {fileID: 3594489535145137192}
-  - component: {fileID: -3171152678097427146}
   - component: {fileID: 411949148048726849}
   - component: {fileID: -4323928692850598188}
   - component: {fileID: -2805331955299079329}
@@ -35,8 +34,11 @@ GameObject:
   - component: {fileID: 4033998415309106841}
   - component: {fileID: 4723721596999951806}
   - component: {fileID: -7548057452032346262}
-  - component: {fileID: -8032407273287348810}
   - component: {fileID: 2650102624688907559}
+  - component: {fileID: -5275497592056958742}
+  - component: {fileID: 2859313200663699178}
+  - component: {fileID: -6219127839713029996}
+  - component: {fileID: 7170301746762327016}
   m_Layer: 0
   m_Name: 481bd10b04334290a52531ce6006ef3d
   m_TagString: Untagged
@@ -93,6 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 8249899027464450530}
+  - {fileID: 4033998415309106841}
   - {fileID: 2650102624688907559}
   - {fileID: 3963727325904828210}
   - {fileID: -6454358634879415210}
@@ -101,23 +104,24 @@ MonoBehaviour:
   - {fileID: 8151185633708267083}
   - {fileID: 3594489535145137192}
   - {fileID: 4723721596999951806}
-  - {fileID: -3171152678097427146}
+  - {fileID: -5275497592056958742}
   - {fileID: 411949148048726849}
   - {fileID: -4323928692850598188}
   - {fileID: -2805331955299079329}
   - {fileID: -7787813561956744471}
   - {fileID: -8592234103368876199}
+  - {fileID: -7548057452032346262}
   - {fileID: -1022383448158176801}
-  - {fileID: 7530876340118227568}
   - {fileID: 549063016649364051}
   - {fileID: 8099137601813970238}
-  - {fileID: 4033998415309106841}
+  - {fileID: 7530876340118227568}
+  - {fileID: -6219127839713029996}
   - {fileID: 7396460203628609454}
-  - {fileID: -7548057452032346262}
+  - {fileID: 7170301746762327016}
   - {fileID: -7878837582527844735}
   - {fileID: -5570615376595325999}
+  - {fileID: 2859313200663699178}
   - {fileID: 6063960401591928863}
-  - {fileID: -8032407273287348810}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &8249899027464450530
@@ -408,41 +412,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isExpanded: 0
   waitTime: 0.5
---- !u!114 &-3171152678097427146
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4877094425250913542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 842a04b05a7094a5ea359d4cb24d968a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isExpanded: 0
-  character:
-    target: 1
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  drawPreviousWeapon: 0
-  meleeWeapon: {fileID: 11400000, guid: b79925989fff9aa4b967e911c666a775, type: 2}
-  meleeShield: {fileID: 0}
 --- !u!114 &411949148048726849
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -698,7 +667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isExpanded: 0
-  waitTime: 0.5
+  waitTime: 1.5
 --- !u!114 &-5570615376595325999
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -829,7 +798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isExpanded: 0
   character:
-    target: 0
+    target: 1
     character: {fileID: 0}
     local:
       allowTypesMask: 512
@@ -913,38 +882,6 @@ MonoBehaviour:
         m_Calls: []
   weapon: {fileID: 11400000, guid: f17ce56b180b0a64b84463e0bfa69b11, type: 2}
   ammo: {fileID: 11400000, guid: b1df3c6dac8149849803e14f3fcb9306, type: 2}
---- !u!114 &-8032407273287348810
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4877094425250913542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47440afbe45c0446b9ecdc6e996c155a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isExpanded: 0
-  shooter:
-    target: 2
-    gameObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
 --- !u!114 &2650102624688907559
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -979,3 +916,158 @@ MonoBehaviour:
         m_Calls: []
   weapon: {fileID: 11400000, guid: f17ce56b180b0a64b84463e0bfa69b11, type: 2}
   ammo: {fileID: 11400000, guid: b1df3c6dac8149849803e14f3fcb9306, type: 2}
+--- !u!114 &-5275497592056958742
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4877094425250913542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842a04b05a7094a5ea359d4cb24d968a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 0
+  character:
+    target: 1
+    character: {fileID: 0}
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    global:
+      allowTypesMask: 512
+      name: 
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
+  drawPreviousWeapon: 0
+  meleeWeapon: {fileID: 11400000, guid: b79925989fff9aa4b967e911c666a775, type: 2}
+  meleeShield: {fileID: 0}
+--- !u!114 &2859313200663699178
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4877094425250913542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba9eb0846af144529dcdbf0cbe397c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 0
+  character:
+    target: 1
+    character: {fileID: 0}
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    global:
+      allowTypesMask: 512
+      name: 
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &-6219127839713029996
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4877094425250913542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182ce00a07e144b13a680dc409247594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 0
+  shooter:
+    target: 2
+    gameObject: {fileID: 0}
+    global:
+      allowTypesMask: 512
+      name: 
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
+  weapon: {fileID: 11400000, guid: f17ce56b180b0a64b84463e0bfa69b11, type: 2}
+  ammo: {fileID: 11400000, guid: b1df3c6dac8149849803e14f3fcb9306, type: 2}
+--- !u!114 &7170301746762327016
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4877094425250913542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c46e5a9775dc496abbf85c5045fea47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 0
+  character:
+    target: 1
+    character: {fileID: 0}
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    global:
+      allowTypesMask: 512
+      name: 
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
+  actionType: 1
+  followTarget:
+    target: 0
+    gameObject: {fileID: 0}
+    global:
+      allowTypesMask: 512
+      name: 
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
+  followMinRadius: 2
+  followMaxRadius: 4
