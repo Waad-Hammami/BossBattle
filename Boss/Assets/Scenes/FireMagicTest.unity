@@ -3901,7 +3901,7 @@ GameObject:
   - component: {fileID: 585349218}
   - component: {fileID: 585349217}
   - component: {fileID: 585349216}
-  - component: {fileID: 585349215}
+  - component: {fileID: 585349224}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -4441,42 +4441,6 @@ MonoBehaviour:
     varObj:
       value: {fileID: 145005284}
   isExpanded: 1
---- !u!114 &585349215
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 585349198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5427d7a3d7317485f8580bfb4a87d521, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  variable:
-    name: Trigger_Phase4
-    save: 1
-    type: 9
-    tags: 0
-    varStr:
-      value: 
-    varNum:
-      value: 0
-    varBol:
-      value: 0
-    varCol:
-      value: {r: 1, g: 1, b: 1, a: 1}
-    varVc2:
-      value: {x: 0, y: 0}
-    varVc3:
-      value: {x: 0, y: 0, z: 0}
-    varTxt:
-      value: {fileID: 0}
-    varSpr:
-      value: {fileID: 0}
-    varObj:
-      value: {fileID: 1354824830}
-  isExpanded: 1
 --- !u!114 &585349216
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -4565,7 +4529,7 @@ MonoBehaviour:
   references:
   - {fileID: 585349217}
   - {fileID: 585349216}
-  - {fileID: 585349215}
+  - {fileID: 585349224}
   behaviorGraph: {fileID: 11400000, guid: cdfa7ebeda94b574f92d54e3545bfb8d, type: 2}
   update: 0
   frequency: 1
@@ -4728,6 +4692,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variable:
     name: CombatActions
+    save: 1
+    type: 9
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+  isExpanded: 1
+--- !u!114 &585349224
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585349198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5427d7a3d7317485f8580bfb4a87d521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variable:
+    name: Trigger_Phase3
     save: 1
     type: 9
     tags: 0
@@ -7481,7 +7481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &966390157
 Transform:
   m_ObjectHideFlags: 0
@@ -12663,7 +12663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1376812945
 Transform:
   m_ObjectHideFlags: 0
