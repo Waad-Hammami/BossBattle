@@ -38,5 +38,5 @@ MonoBehaviour:
     stabilizeBody: 0
   prefab: {fileID: 4573834925978696701, guid: 0cb9e0d905824c240a52f86431aefd9e, type: 3}
   attachment: 18
-  prefabPosition: {x: 5, y: -2, z: 0}
+  prefabPosition: {x: -1.5, y: 1.5, z: 0}
   prefabRotation: {x: 0, y: 0, z: 0}

@@ -7,16 +7,14 @@ public class MainMenu : MonoBehaviour
 {
     public void QuitGame()
     {
-        FindObjectOfType<AudioManager>().Play("button");
         Debug.Log("QUIT !");
         Application.Quit();
 
     }
 
-    public void PlayGame()
+    public void Replay()
     {
-        FindObjectOfType<AudioManager>().Play("button");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("MultiPhase"); ;
 
     }
 

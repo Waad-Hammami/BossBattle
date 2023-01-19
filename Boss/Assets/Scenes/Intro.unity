@@ -1570,14 +1570,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6282f5544d2140058bc7a23c0771c00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   audioClip: {fileID: 8300000, guid: 3c904f98f5921824daea715509d96383, type: 3}
   message:
     content: 
     postProcess: 0
     translationID: 0
   color: {r: 1, g: 1, b: 1, a: 1}
-  time: 7.31
+  time: 6.5
 --- !u!114 &267634983
 MonoBehaviour:
   m_ObjectHideFlags: 3

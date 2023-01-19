@@ -27,7 +27,6 @@ GameObject:
   - component: {fileID: 4332118272717249429}
   - component: {fileID: -8941940477131386623}
   - component: {fileID: -6773275538110010817}
-  - component: {fileID: 3178536423306426111}
   m_Layer: 0
   m_Name: 0bcac6694f4142b99ea19bde773d5e66
   m_TagString: Untagged
@@ -83,7 +82,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 3178536423306426111}
   - {fileID: 8138898138132654564}
   - {fileID: 2834828587610371564}
   - {fileID: -9069434839634829692}
@@ -637,7 +635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isExpanded: 0
-  waitTime: 2.55
+  waitTime: 0.5
 --- !u!114 &-8941940477131386623
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -705,35 +703,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isExpanded: 0
---- !u!114 &3178536423306426111
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7965643267697421766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fba9eb0846af144529dcdbf0cbe397c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isExpanded: 0
-  character:
-    target: 1
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
