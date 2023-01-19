@@ -357,32 +357,6 @@ MonoBehaviour:
       - Assets/Plugins/FireChickenGames/ShooterCombat/
       dataPaths: []
   - module:
-      moduleID: com.gamecreator.examples.behavior
-      version:
-        major: 1
-        minor: 0
-        patch: 2
-      displayName: Behavior Examples
-      description: Example scenes that show how to use the Behavior module
-      category: Examples
-      dependencies:
-      - moduleID: com.gamecreator.module.behavior
-        version:
-          major: 1
-          minor: 0
-          patch: 1
-      tags:
-      - examples
-      - behavior
-      authorName: Marti-Joan Nogue Coll
-      authorMail: marti@catsoft-studios.com
-      authorSite: https://gamecreator.io
-      includesData: 1
-      codePaths:
-      - Assets/Plugins/GameCreator/BehaviorExamples/
-      dataPaths:
-      - Assets/Plugins/GameCreatorData/Behavior/
-  - module:
       moduleID: com.gamecreator.examples.dialogue
       version:
         major: 1
@@ -849,3 +823,29 @@ MonoBehaviour:
       codePaths:
       - Assets/PivecLabs/MobileShooter/
       dataPaths: []
+  - module:
+      moduleID: com.gamecreator.examples.behavior
+      version:
+        major: 1
+        minor: 0
+        patch: 2
+      displayName: Behavior Examples
+      description: Example scenes that show how to use the Behavior module
+      category: Examples
+      dependencies:
+      - moduleID: com.gamecreator.module.behavior
+        version:
+          major: 1
+          minor: 0
+          patch: 1
+      tags:
+      - examples
+      - behavior
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 1
+      codePaths:
+      - Assets/Plugins/GameCreator/BehaviorExamples/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Behavior/

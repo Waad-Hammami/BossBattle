@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6872067402253354459
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 1
+  prefabConditionsList: {fileID: 6567822781065612257, guid: caa95c40cbd9d4440ad881b23b6ef73f, type: 3}
+  useActionsList: 1
+  prefabActionsList: {fileID: 4977276343022376042, guid: 53c14ef041049a344822ce3a3af417bb, type: 3}
+  input: {fileID: 4857705590253093458}
+  outputs: []
+  mode: 0
+  editorName: 
+  position: {x: 254, y: 24}
+--- !u!114 &-6464493710446416669
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e14954a75ff04471aa9befca86cdb5d, type: 3}
+  m_Name: Entry
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: 0}
+  outputs:
+  - {fileID: 4857705590253093458}
+  mode: 0
+  editorName: 
+  position: {x: -80, y: -192}
+--- !u!114 &-380968648295586631
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 1
+  prefabConditionsList: {fileID: 4915712630253169138, guid: d8fdd296ebbf8aa4a9947789341f3c5d, type: 3}
+  useActionsList: 1
+  prefabActionsList: {fileID: 1987176175911044224, guid: 09933bfb986e9424ebaa92d9a89b33af, type: 3}
+  input: {fileID: 4857705590253093458}
+  outputs: []
+  mode: 1
+  editorName: Phase1:Projectiles
+  position: {x: -475, y: 18}
+--- !u!114 &-143127483148697905
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 1
+  prefabConditionsList: {fileID: 2666920063915591731, guid: 01d53bdc98ee89745a012f0001403419, type: 3}
+  useActionsList: 1
+  prefabActionsList: {fileID: 7690679381850571778, guid: 361b2b975a890f049b1aac407d01ba1b, type: 3}
+  input: {fileID: 4857705590253093458}
+  outputs: []
+  mode: 1
+  editorName: Phase3:Combo
+  position: {x: 19, y: 29}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6fc1f28238a4adb8d1747178271dc5, type: 3}
+  m_Name: BehaviorBossAi
+  m_EditorClassIdentifier: 
+  root: {fileID: -6464493710446416669}
+  nodes:
+  - {fileID: -6464493710446416669}
+  - {fileID: 4857705590253093458}
+  - {fileID: 1953082988186350566}
+  - {fileID: -380968648295586631}
+  - {fileID: -143127483148697905}
+  - {fileID: -6872067402253354459}
+  blackboard:
+    list:
+    - name: CombatActions
+      type: 9
+    - name: PatrolActions
+      type: 9
+    - name: MarkerShot
+      type: 9
+    - name: ViewMarker01
+      type: 9
+    - name: ViewMarker02
+      type: 9
+  position: {x: -2, y: 6}
+  zoom: 1.1679806
+--- !u!114 &1953082988186350566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaee7f1d0b2dd4de3954af2150d3cf1b, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 1
+  prefabConditionsList: {fileID: 1942800008717173011, guid: 8af9e3ebbe93eec42ba415a531a3218c, type: 3}
+  useActionsList: 1
+  prefabActionsList: {fileID: 8490777430541681639, guid: dfa29d1461ce9024680df94f4f5fcb13, type: 3}
+  input: {fileID: 4857705590253093458}
+  outputs: []
+  mode: 1
+  editorName: Phase2:Melee
+  position: {x: -231, y: 18}
+--- !u!114 &4857705590253093458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3ca613e87c245f6996bb5850932f56, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: -6464493710446416669}
+  outputs:
+  - {fileID: -380968648295586631}
+  - {fileID: 1953082988186350566}
+  - {fileID: -143127483148697905}
+  - {fileID: -6872067402253354459}
+  mode: 0
+  editorName: 
+  position: {x: -131, y: -98}
+  composite: 0

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fbd4b7b61e694b8884250fb9c971828, type: 3}
+  m_Name: FireMagic
+  m_EditorClassIdentifier: 
+  weaponName:
+    content: ProjectileMagic
+    postProcess: 0
+    translationID: 0
+  weaponDesc:
+    content: Weapon Description
+    postProcess: 0
+    translationID: 0
+  defaultAmmo: {fileID: 0}
+  audioDraw: {fileID: 0}
+  audioHolster: {fileID: 0}
+  ease:
+    state: {fileID: 11400000, guid: 5e9b96a206be253499395a98a146ae3c, type: 2}
+    mask: {fileID: 0}
+    upperBodyRotation: {x: 0, y: 0, z: 0}
+    lowerBodyRotation: 0
+    stabilizeBody: 0
+  pitchOffset: 0
+  aiming:
+    state: {fileID: 0}
+    mask: {fileID: 0}
+    upperBodyRotation: {x: 0, y: 0, z: 0}
+    lowerBodyRotation: 0
+    stabilizeBody: 0
+  prefab: {fileID: 4573834925978696701, guid: 0cb9e0d905824c240a52f86431aefd9e, type: 3}
+  attachment: 18
+  prefabPosition: {x: 0, y: 0, z: 0}
+  prefabRotation: {x: 0, y: 0, z: 0}
