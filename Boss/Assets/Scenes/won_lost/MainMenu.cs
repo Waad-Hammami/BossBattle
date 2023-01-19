@@ -14,6 +14,7 @@ public class MainMenu : MonoBehaviour
 
     public void Replay()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MultiPhase"); ;
 
     }

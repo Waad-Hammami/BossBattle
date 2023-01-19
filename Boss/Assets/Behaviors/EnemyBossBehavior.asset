@@ -21,7 +21,7 @@ MonoBehaviour:
   outputs: []
   mode: 0
   editorName: Phase2:Melee
-  position: {x: -573, y: 177}
+  position: {x: -573, y: 222}
 --- !u!114 &-5315802872126865285
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -96,7 +96,7 @@ MonoBehaviour:
     - name: Trigger_Phase3
       type: 9
   position: {x: 334, y: -332}
-  zoom: 2.0675254
+  zoom: 3.3297703
 --- !u!114 &1922861412036420117
 MonoBehaviour:
   m_ObjectHideFlags: 1

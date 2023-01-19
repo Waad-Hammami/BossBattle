@@ -4520,7 +4520,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585349198}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc12b44da9dc4e0899aaeb269539d78, type: 3}
   m_Name: 
@@ -7481,7 +7481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &966390157
 Transform:
   m_ObjectHideFlags: 0
@@ -8969,7 +8969,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   attribute: {fileID: 114291937499452772, guid: 0b2ffcd7c03f643b9a75e3c1bf527df0, type: 2}
-  compare: 1
+  compare: 3
   value:
     optionIndex: 0
     value: 0
@@ -15684,10 +15684,10 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   attribute: {fileID: 114291937499452772, guid: 0b2ffcd7c03f643b9a75e3c1bf527df0, type: 2}
-  compare: 1
+  compare: 3
   value:
     optionIndex: 0
-    value: 0
+    value: 5
     global:
       allowTypesMask: 4
       name: 
@@ -15701,7 +15701,7 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-  percent: 0.5
+  percent: 0
 --- !u!114 &1844906362
 MonoBehaviour:
   m_ObjectHideFlags: 3
